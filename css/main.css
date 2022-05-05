@@ -1,0 +1,95 @@
+/* 
+	CSS Styling, 
+	Author: Raghav Sampangi, 
+	From: code sample in weekly content, 
+	Date accessed: 12 March 2022 
+*/
+
+/* Common page styles */
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: steelblue;
+}
+body {
+	width: 80vw; 
+	margin: 0 auto;
+	background-color: white;
+}
+
+/* Page header/banner styles */
+.pg-banner {
+	height: 10vh;
+	border-bottom: 5px solid gold;
+	display: flex;
+	align-items: center;
+	justify-content: space-between ;
+	padding: 1em;
+}
+.pg-banner h1 {
+	margin: 0;
+	padding: 0;
+}
+
+/* Page main content section styles */
+.pg-main-content {
+	min-height: 60vh;
+	padding: 1em;
+}
+
+/* Page footer styles */
+.pg-footer {
+	height: 10vh;
+	color: white;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	padding: 1em;
+}
+
+/* Form styling */
+form {
+	margin: auto;
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+}
+form > input {
+	margin: 1em 0;
+	height: 3em;
+}
+
+.welcome{
+	padding: 1em;
+}
+
+
+
+.post{
+	padding: 1em; 
+}
+
+
+.message{
+	display: inline-block;
+	font-style: italic;
+	font-size: small;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+nav > h2 {
+	padding: 1em;
+}
+
+nav > p{
+	padding: 1em;
+}
+
+.inline{
+	display: inline-block;
+}
